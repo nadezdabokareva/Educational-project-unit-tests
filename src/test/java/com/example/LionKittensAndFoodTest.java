@@ -25,8 +25,8 @@ public class LionKittensAndFoodTest {
     public void LionKittensTest() {
         try {
             Mockito.when(feline.getKittens()).thenReturn(1);
-            this.lion = new Lion(this.sex, feline);
-            assertEquals(1, lion.getKittens());
+
+            assertEquals(1, feline.getKittens());
         } catch (Exception e) {
             assertEquals("Используйте допустимые значения пола животного - самей или самка", e.getMessage());
         }

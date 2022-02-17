@@ -18,9 +18,9 @@ public class CatTest {
 
     @Test
     public void getSound() {
-        String ecxpectedSound = "Мяу";
+        String expectedSound = "Мяу";
         Cat cat = new Cat(new Feline());
-        assertEquals("Мяу", cat.getSound());
+        assertEquals(expectedSound, cat.getSound());
     }
 
     @Test
