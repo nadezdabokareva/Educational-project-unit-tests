@@ -36,5 +36,6 @@ public class LionSexTest {
         } catch (Exception e) {
             assertEquals("Используйте допустимые значения пола животного - самей или самка", e.getMessage());
         }
+
     }
 }
