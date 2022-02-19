@@ -15,5 +15,4 @@ public class LionKittensTest {
         int actualKittensCount = lion.getKittens();
         assertEquals(expectedKittensCount, actualKittensCount);
     }
-
 }

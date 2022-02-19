@@ -29,7 +29,6 @@ public class CatFoodTest {
         catch (Exception e){
             assertEquals("Неизвестный вид животного, используйте значение Травоядное или Хищник", e.getMessage());
         }
-
     }
 
 }

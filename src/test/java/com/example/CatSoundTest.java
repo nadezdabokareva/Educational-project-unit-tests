@@ -14,5 +14,4 @@ public class CatSoundTest {
         assertEquals(expectedCatSound, actualCatSound);
     }
 
-
 }

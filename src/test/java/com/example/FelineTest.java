@@ -28,5 +28,4 @@ public class FelineTest {
         Feline feline = new Feline();
         assertEquals(1, feline.getKittens());
     }
-
 }

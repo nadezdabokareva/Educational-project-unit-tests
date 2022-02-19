@@ -30,6 +30,5 @@ public class LionFoodTest {
             assertEquals("Неизвестный вид животного, используйте значение Травоядное или Хищник", e.getMessage());
         }
 
-
     }
 }
